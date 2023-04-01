@@ -2,8 +2,7 @@
 
 body{
     background-color: hsl(212, 45%, 89%); 
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,15 +24,12 @@ main {
 }
 
 .imagem {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     border-radius: 15px;
-    position: relative;
-    top: 0;
 }
 
 .titulo {
-    padding: 10px;
+    margin: 10px 10px 8px 10px;
     font-weight: 700;
     font-size: 1.4rem;
     color: hsl(218, 44%, 22%);
@@ -41,9 +37,9 @@ main {
 }
 
 .descricao {
-    padding: 10px;
+    margin: 10px 10px 8px 10px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.9375rem;
     color: hsl(220, 15%, 55%);
     text-align: center;
 }
